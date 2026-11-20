@@ -1,0 +1,351 @@
+make,model,segment,first_mot_tests,first_mot_fail_rate_pct,times_national_rate,median_miles_at_first_mot,all_ages_fail_rate_pct,all_ages_vs_same_age_and_mileage_pct,ranked,page
+Abarth,124 Spider,Sports car and convertible,840,8.7,0.71,16130,9.6,-25.1,no,https://getfreecarcheck.co.uk/cars/abarth/124-spider
+Abarth,595,City car,9316,12,0.98,19244,18.6,16.1,yes,https://getfreecarcheck.co.uk/cars/abarth/595
+Abarth,595C,City car,1241,13,1.06,17214,15.1,16.2,yes,https://getfreecarcheck.co.uk/cars/abarth/595c
+Alfa Romeo,Giulia,Executive car,3978,11.6,0.94,26505,13.3,-17.5,yes,https://getfreecarcheck.co.uk/cars/alfa-romeo/giulia
+Alfa Romeo,Giulietta,Family hatchback,1741,12.9,1.05,25692,30.4,3.3,yes,https://getfreecarcheck.co.uk/cars/alfa-romeo/giulietta
+Alfa Romeo,Mito,Small car,314,15,1.22,19175,36.9,16.4,no,https://getfreecarcheck.co.uk/cars/alfa-romeo/mito
+Alfa Romeo,Stelvio,Family SUV,3282,10.3,0.84,28606,10.1,-32.4,yes,https://getfreecarcheck.co.uk/cars/alfa-romeo/stelvio
+Aston Martin,DB11,Sports car and convertible,1539,4,0.33,10847,3.9,-65.9,yes,https://getfreecarcheck.co.uk/cars/aston-martin/db11
+Aston Martin,DBS,Sports car and convertible,1039,1.7,0.14,7516,4.6,-71.3,yes,https://getfreecarcheck.co.uk/cars/aston-martin/dbs
+Aston Martin,Vantage,Sports car and convertible,1677,4,0.33,12182,6,-64.6,yes,https://getfreecarcheck.co.uk/cars/aston-martin/vantage
+Audi,A1,Small car,62547,9.9,0.8,24296,21.3,-8.3,yes,https://getfreecarcheck.co.uk/cars/audi/a1
+Audi,A3,Family hatchback,72165,10.2,0.83,28754,24.4,-19.2,yes,https://getfreecarcheck.co.uk/cars/audi/a3
+Audi,A4,Executive car,37870,11.2,0.91,33179,26.5,-20.7,yes,https://getfreecarcheck.co.uk/cars/audi/a4
+Audi,A5,Executive car,28950,10.7,0.87,29708,19.7,-30.1,yes,https://getfreecarcheck.co.uk/cars/audi/a5
+Audi,A6,Executive car,22355,9.3,0.76,35516,20.1,-36.2,yes,https://getfreecarcheck.co.uk/cars/audi/a6
+Audi,A7,Executive car,4057,10.3,0.84,32747,13.9,-47.7,yes,https://getfreecarcheck.co.uk/cars/audi/a7
+Audi,A8,Luxury car,2287,7,0.57,32540,13.2,-58,yes,https://getfreecarcheck.co.uk/cars/audi/a8
+Audi,e-tron,Family SUV,14045,7.5,0.61,31102,7.9,-40.8,yes,https://getfreecarcheck.co.uk/cars/audi/e-tron
+Audi,Q2,Small SUV,57818,7.8,0.63,26629,9.1,-37.5,yes,https://getfreecarcheck.co.uk/cars/audi/q2
+Audi,Q3,Family SUV,46237,7.3,0.59,27483,15.5,-29.3,yes,https://getfreecarcheck.co.uk/cars/audi/q3
+Audi,Q5,Family SUV,41403,8.1,0.66,31833,15.3,-38.1,yes,https://getfreecarcheck.co.uk/cars/audi/q5
+Audi,Q7,Large SUV,14523,10,0.81,34550,16.8,-41.3,yes,https://getfreecarcheck.co.uk/cars/audi/q7
+Audi,Q8,Large SUV,4358,8,0.65,32778,7.5,-50.8,yes,https://getfreecarcheck.co.uk/cars/audi/q8
+Audi,R8,Sports car and convertible,996,4.2,0.34,12408,7.7,-63.2,no,https://getfreecarcheck.co.uk/cars/audi/r8
+Audi,S3,Family hatchback,2742,6.1,0.5,27426,17.5,-45,yes,https://getfreecarcheck.co.uk/cars/audi/s3
+Audi,S4,Executive car,1556,7.1,0.58,35321,15.6,-49.5,yes,https://getfreecarcheck.co.uk/cars/audi/s4
+Audi,S5,Executive car,621,11.3,0.92,34199,16.9,-51,no,https://getfreecarcheck.co.uk/cars/audi/s5
+Audi,TT,Sports car and convertible,14632,7.8,0.63,21737,22.6,-29.1,yes,https://getfreecarcheck.co.uk/cars/audi/tt
+Bentley,Bentayga,Large SUV,2354,3.2,0.26,22943,4.2,-73,yes,https://getfreecarcheck.co.uk/cars/bentley/bentayga
+Bentley,Continental,Luxury car,3321,4.2,0.34,12741,7.4,-70.4,yes,https://getfreecarcheck.co.uk/cars/bentley/continental
+BMW,1 Series,Family hatchback,97514,9.7,0.79,27863,23.1,-19.2,yes,https://getfreecarcheck.co.uk/cars/bmw/1-series
+BMW,2 Series,Family hatchback,58538,10.2,0.83,25060,14.3,-20.5,yes,https://getfreecarcheck.co.uk/cars/bmw/2-series
+BMW,3 Series,Executive car,87687,11.5,0.93,34563,24.3,-26.5,yes,https://getfreecarcheck.co.uk/cars/bmw/3-series
+BMW,4 Series,Executive car,32250,10.7,0.87,27936,14.1,-33.6,yes,https://getfreecarcheck.co.uk/cars/bmw/4-series
+BMW,5 Series,Executive car,46459,10.9,0.89,34908,20.4,-35,yes,https://getfreecarcheck.co.uk/cars/bmw/5-series
+BMW,6 Series,Executive car,2844,10.2,0.83,32271,18.6,-39.9,yes,https://getfreecarcheck.co.uk/cars/bmw/6-series
+BMW,7 Series,Luxury car,5706,6.6,0.54,32958,15.9,-47.1,yes,https://getfreecarcheck.co.uk/cars/bmw/7-series
+BMW,8 Series,Luxury car,6377,10.4,0.85,26239,10.9,-28.3,yes,https://getfreecarcheck.co.uk/cars/bmw/8-series
+BMW,Alpina,Executive car,202,6.9,0.56,23513,16.1,-53.9,no,https://getfreecarcheck.co.uk/cars/bmw/alpina
+BMW,i3,Small car,14009,9.7,0.79,21387,11.7,-27.7,yes,https://getfreecarcheck.co.uk/cars/bmw/i3
+BMW,i8,Sports car and convertible,596,9.1,0.74,13717,9.6,-44.2,no,https://getfreecarcheck.co.uk/cars/bmw/i8
+BMW,M2,Executive car,1374,7.9,0.64,20940,9.3,-40.6,yes,https://getfreecarcheck.co.uk/cars/bmw/m2
+BMW,M3,Executive car,1474,4.4,0.36,20785,12.5,-61.7,yes,https://getfreecarcheck.co.uk/cars/bmw/m3
+BMW,M4,Executive car,6539,9.4,0.76,20904,10.5,-39,yes,https://getfreecarcheck.co.uk/cars/bmw/m4
+BMW,X1,Small SUV,37726,9.4,0.76,25899,16.4,-26.9,yes,https://getfreecarcheck.co.uk/cars/bmw/x1
+BMW,X2,Small SUV,17425,14.3,1.16,26630,14.1,0.8,yes,https://getfreecarcheck.co.uk/cars/bmw/x2
+BMW,X3,Family SUV,40630,8.7,0.71,29378,19.9,-24.8,yes,https://getfreecarcheck.co.uk/cars/bmw/x3
+BMW,X4,Family SUV,9696,8.9,0.72,30583,13,-32.2,yes,https://getfreecarcheck.co.uk/cars/bmw/x4
+BMW,X5,Large SUV,27577,10.9,0.89,33615,19.9,-36,yes,https://getfreecarcheck.co.uk/cars/bmw/x5
+BMW,X6,Large SUV,5323,10.4,0.85,30859,15.1,-43.9,yes,https://getfreecarcheck.co.uk/cars/bmw/x6
+BMW,Z4,Sports car and convertible,4658,8.6,0.7,18095,22.2,-32.8,yes,https://getfreecarcheck.co.uk/cars/bmw/z4
+Citroën,Berlingo,Van,45494,28.6,2.33,43266,41.9,36.8,no,https://getfreecarcheck.co.uk/cars/citroen/berlingo
+Citroën,Berlingo Multispace,MPV and people carrier,980,19.1,1.55,17907,25,53.9,no,https://getfreecarcheck.co.uk/cars/citroen/berlingo-multispace
+Citroën,C1,City car,14609,9.8,0.8,16573,29.7,8.5,yes,https://getfreecarcheck.co.uk/cars/citroen/c1
+Citroën,C3,Small car,38236,10.5,0.85,23121,35.6,28.4,yes,https://getfreecarcheck.co.uk/cars/citroen/c3
+Citroën,C3 Aircross,Small SUV,23719,10.6,0.86,22260,14,7.9,yes,https://getfreecarcheck.co.uk/cars/citroen/c3-aircross
+Citroën,C4,Family hatchback,11272,16.6,1.35,27321,39.4,30.1,yes,https://getfreecarcheck.co.uk/cars/citroen/c4
+Citroën,C4 Cactus,Small SUV,10024,14.5,1.18,25359,24.9,53.7,yes,https://getfreecarcheck.co.uk/cars/citroen/c4-cactus
+Citroën,C4 Grand Picasso,MPV and people carrier,1975,19.1,1.55,33070,28.6,49.4,yes,https://getfreecarcheck.co.uk/cars/citroen/c4-grand-picasso
+Citroën,C4 Picasso,MPV and people carrier,831,12.8,1.04,26197,23.9,25,no,https://getfreecarcheck.co.uk/cars/citroen/c4-picasso
+Citroën,C5,Large family car,17143,13.6,1.11,26015,28.5,6.1,yes,https://getfreecarcheck.co.uk/cars/citroen/c5
+Citroën,Dispatch,Van,12158,27.7,2.25,49418,41.6,35.8,no,https://getfreecarcheck.co.uk/cars/citroen/dispatch
+Citroën,Relay,Van,1626,21.5,1.75,28613,36.3,12.6,no,https://getfreecarcheck.co.uk/cars/citroen/relay
+Citroën,Spacetourer,MPV and people carrier,1932,21.5,1.75,30787,21.4,32.5,yes,https://getfreecarcheck.co.uk/cars/citroen/spacetourer
+Dacia,Duster,Small SUV,34985,17.6,1.43,25824,26.9,39.1,yes,https://getfreecarcheck.co.uk/cars/dacia/duster
+Dacia,Logan,Small car,4541,21.7,1.76,27816,28.7,34.5,yes,https://getfreecarcheck.co.uk/cars/dacia/logan
+Dacia,Sandero,Small car,33683,19.5,1.59,20659,30.8,62.1,yes,https://getfreecarcheck.co.uk/cars/dacia/sandero
+DS,DS3,Small car,6434,16,1.3,23319,29.1,59.3,yes,https://getfreecarcheck.co.uk/cars/ds/ds3
+DS,DS4,Family hatchback,242,16.5,1.34,25993,29.4,45.3,no,https://getfreecarcheck.co.uk/cars/ds/ds4
+DS,DS7,Family SUV,3027,13,1.06,30010,15.8,6.4,yes,https://getfreecarcheck.co.uk/cars/ds/ds7
+Ferrari,488,Sports car and convertible,337,3,0.24,5194,3.9,-62.3,no,https://getfreecarcheck.co.uk/cars/ferrari/488
+Fiat,124,Sports car and convertible,910,9.5,0.77,16203,12.5,-6,no,https://getfreecarcheck.co.uk/cars/fiat/124
+Fiat,500,City car,52013,11.5,0.93,18205,31,27.9,yes,https://getfreecarcheck.co.uk/cars/fiat/500
+Fiat,500C,City car,2233,10.7,0.87,16895,31.5,26.7,yes,https://getfreecarcheck.co.uk/cars/fiat/500c
+Fiat,500L,Small car,683,19.3,1.57,19546,33.7,30.4,no,https://getfreecarcheck.co.uk/cars/fiat/500l
+Fiat,500X,Small SUV,8729,9.2,0.75,23257,21.4,13.9,yes,https://getfreecarcheck.co.uk/cars/fiat/500x
+Fiat,Doblo,Van,4958,25,2.03,38943,36.1,17.4,no,https://getfreecarcheck.co.uk/cars/fiat/doblo
+Fiat,Ducato,Van,6400,12.6,1.02,17124,25.8,-7.9,no,https://getfreecarcheck.co.uk/cars/fiat/ducato
+Fiat,Fiorino,Van,1746,28.1,2.28,37061,39.3,31.4,no,https://getfreecarcheck.co.uk/cars/fiat/fiorino
+Fiat,Fullback,Pickup,886,15.5,1.26,42099,17.5,-10.2,no,https://getfreecarcheck.co.uk/cars/fiat/fullback
+Fiat,Panda,City car,6958,10,0.81,16376,35.2,21.9,yes,https://getfreecarcheck.co.uk/cars/fiat/panda
+Fiat,Punto,Small car,211,19.4,1.58,20450,44.5,23.7,no,https://getfreecarcheck.co.uk/cars/fiat/punto
+Fiat,Qubo,Small car,230,14.8,1.2,15085,34.8,19.6,no,https://getfreecarcheck.co.uk/cars/fiat/qubo
+Fiat,Tipo,Family hatchback,4451,18.8,1.53,26585,26.1,51.5,yes,https://getfreecarcheck.co.uk/cars/fiat/tipo
+Ford,B-Max,Small car,423,10.4,0.85,20521,27.2,22.3,no,https://getfreecarcheck.co.uk/cars/ford/b-max
+Ford,C-Max,MPV and people carrier,6014,16.2,1.32,18842,30,-0.6,yes,https://getfreecarcheck.co.uk/cars/ford/c-max
+Ford,EcoSport,Small SUV,55166,11.6,0.94,19850,20,27.6,yes,https://getfreecarcheck.co.uk/cars/ford/ecosport
+Ford,Edge,Family SUV,1987,11.5,0.93,29085,13.8,-25.3,yes,https://getfreecarcheck.co.uk/cars/ford/edge
+Ford,Fiesta,Small car,221170,11.9,0.97,22825,33.9,18.9,yes,https://getfreecarcheck.co.uk/cars/ford/fiesta
+Ford,Focus,Family hatchback,148460,12.1,0.98,27644,31.8,2.6,yes,https://getfreecarcheck.co.uk/cars/ford/focus
+Ford,Galaxy,MPV and people carrier,8414,18.7,1.52,36075,36.9,8.3,yes,https://getfreecarcheck.co.uk/cars/ford/galaxy
+Ford,Grand C-Max,MPV and people carrier,2940,22,1.79,24453,31,15.4,yes,https://getfreecarcheck.co.uk/cars/ford/grand-c-max
+Ford,Ka,City car,18097,9.8,0.8,17555,32.8,22.8,yes,https://getfreecarcheck.co.uk/cars/ford/ka
+Ford,Kuga,Family SUV,100685,11.1,0.9,26671,20.2,-11.8,yes,https://getfreecarcheck.co.uk/cars/ford/kuga
+Ford,Mondeo,Large family car,13084,16.3,1.33,41389,33.3,-6.1,yes,https://getfreecarcheck.co.uk/cars/ford/mondeo
+Ford,Mustang,Sports car and convertible,5580,11.6,0.94,17346,14.7,-15.5,yes,https://getfreecarcheck.co.uk/cars/ford/mustang
+Ford,Puma,Small SUV,45230,7.5,0.61,24315,12.4,-18.5,yes,https://getfreecarcheck.co.uk/cars/ford/puma
+Ford,Ranger,Pickup,48611,16.4,1.33,41355,27.6,5.1,no,https://getfreecarcheck.co.uk/cars/ford/ranger
+Ford,S-Max,MPV and people carrier,6630,17.6,1.43,30930,34.6,2,yes,https://getfreecarcheck.co.uk/cars/ford/s-max
+Ford,Tourneo,MPV and people carrier,4371,17.5,1.42,32049,25.6,10.4,yes,https://getfreecarcheck.co.uk/cars/ford/tourneo
+Ford,Tourneo Connect,MPV and people carrier,6285,18.2,1.48,22779,21.1,9.1,yes,https://getfreecarcheck.co.uk/cars/ford/tourneo-connect
+Ford,Tourneo Custom,MPV and people carrier,6765,20.7,1.68,39975,19.3,14.3,yes,https://getfreecarcheck.co.uk/cars/ford/tourneo-custom
+Ford,Transit,Van,16406,19.8,1.61,49290,36.7,15,no,https://getfreecarcheck.co.uk/cars/ford/transit
+Ford,Transit Connect,Van,41110,23.7,1.93,48664,36,14.1,no,https://getfreecarcheck.co.uk/cars/ford/transit-connect
+Ford,Transit Courier,Van,11618,22.7,1.85,46431,29.5,36.9,no,https://getfreecarcheck.co.uk/cars/ford/transit-courier
+Ford,Transit Custom,Van,119787,20.4,1.66,48793,20.7,14.4,no,https://getfreecarcheck.co.uk/cars/ford/transit-custom
+Honda,Civic,Family hatchback,30999,9.8,0.8,25821,32.6,-3.7,yes,https://getfreecarcheck.co.uk/cars/honda/civic
+Honda,CR-V,Family SUV,27589,7.5,0.61,25789,25.6,-21.9,yes,https://getfreecarcheck.co.uk/cars/honda/cr-v
+Honda,HR-V,Small SUV,16090,6.9,0.56,22029,13.1,-27.8,yes,https://getfreecarcheck.co.uk/cars/honda/hr-v
+Honda,Jazz,Small car,47750,6.7,0.54,16496,25.7,-10.8,yes,https://getfreecarcheck.co.uk/cars/honda/jazz
+Honda,Stepwagon,MPV and people carrier,345,28.4,2.31,90113,23,-33.5,no,https://getfreecarcheck.co.uk/cars/honda/stepwagon
+Hyundai,i10,City car,43883,12.7,1.03,17373,26.2,18.5,yes,https://getfreecarcheck.co.uk/cars/hyundai/i10
+Hyundai,i20,Small car,20629,10,0.81,21803,27,9.6,yes,https://getfreecarcheck.co.uk/cars/hyundai/i20
+Hyundai,i30,Family hatchback,12578,12.5,1.02,27123,34,19.9,yes,https://getfreecarcheck.co.uk/cars/hyundai/i30
+Hyundai,i40,Large family car,1242,15.5,1.26,43341,26.6,-4.5,yes,https://getfreecarcheck.co.uk/cars/hyundai/i40
+Hyundai,i800,MPV and people carrier,2535,30.8,2.5,38451,37,45.8,yes,https://getfreecarcheck.co.uk/cars/hyundai/i800
+Hyundai,Ioniq,Family hatchback,35279,11.2,0.91,34585,12.5,-26.1,yes,https://getfreecarcheck.co.uk/cars/hyundai/ioniq
+Hyundai,ix20,Small car,3338,11.5,0.93,15947,26.9,23.6,yes,https://getfreecarcheck.co.uk/cars/hyundai/ix20
+Hyundai,Kona,Small SUV,36073,11,0.89,25050,11.7,-9.6,yes,https://getfreecarcheck.co.uk/cars/hyundai/kona
+Hyundai,Santa Fe,Family SUV,3916,11.4,0.93,31249,32.5,4.1,yes,https://getfreecarcheck.co.uk/cars/hyundai/santa-fe
+Hyundai,Tucson,Family SUV,69526,13.7,1.11,26921,17.5,-3,yes,https://getfreecarcheck.co.uk/cars/hyundai/tucson
+Infiniti,Q30,Family hatchback,373,9.7,0.79,24924,14.9,-22.3,no,https://getfreecarcheck.co.uk/cars/infiniti/q30
+Isuzu,D-Max,Pickup,10953,18.7,1.52,38702,28.2,18.4,no,https://getfreecarcheck.co.uk/cars/isuzu/d-max
+Iveco,Daily,Van,490,9.6,0.78,46134,36.2,-1.4,no,https://getfreecarcheck.co.uk/cars/iveco/daily
+Jaguar,E-Pace,Small SUV,30799,10,0.81,27605,11.3,-21,yes,https://getfreecarcheck.co.uk/cars/jaguar/e-pace
+Jaguar,F-Pace,Family SUV,33427,12.4,1.01,31125,13.4,-23.7,yes,https://getfreecarcheck.co.uk/cars/jaguar/f-pace
+Jaguar,F-Type,Sports car and convertible,5832,6.9,0.56,15916,7.8,-52,yes,https://getfreecarcheck.co.uk/cars/jaguar/f-type
+Jaguar,I-Pace,Family SUV,20450,6.7,0.54,30254,7.1,-47.3,yes,https://getfreecarcheck.co.uk/cars/jaguar/i-pace
+Jaguar,XE,Executive car,11893,16,1.3,26937,17.4,-12,yes,https://getfreecarcheck.co.uk/cars/jaguar/xe
+Jaguar,XF,Executive car,9969,13.6,1.11,27861,23.1,-23.1,yes,https://getfreecarcheck.co.uk/cars/jaguar/xf
+Jaguar,XJ,Luxury car,1096,9.9,0.8,24168,22.6,-35.5,yes,https://getfreecarcheck.co.uk/cars/jaguar/xj
+Jeep,Cherokee,Family SUV,271,19.2,1.56,30345,33.1,-5,no,https://getfreecarcheck.co.uk/cars/jeep/cherokee
+Jeep,Grand Cherokee,Large SUV,581,12.4,1.01,28359,25.3,-23,no,https://getfreecarcheck.co.uk/cars/jeep/grand-cherokee
+Jeep,Renegade,Small SUV,5176,9.1,0.74,24323,22.2,11.9,yes,https://getfreecarcheck.co.uk/cars/jeep/renegade
+Jeep,Wrangler,Large SUV,2428,8.8,0.72,23522,26,-6.2,yes,https://getfreecarcheck.co.uk/cars/jeep/wrangler
+Kia,Carens,MPV and people carrier,1208,20,1.63,28844,35.6,24.7,yes,https://getfreecarcheck.co.uk/cars/kia/carens
+Kia,Ceed,Family hatchback,21377,14.7,1.2,29967,32.7,16.1,yes,https://getfreecarcheck.co.uk/cars/kia/ceed
+Kia,Niro,Small SUV,41255,11.6,0.94,30892,13,-16.9,yes,https://getfreecarcheck.co.uk/cars/kia/niro
+Kia,Optima,Large family car,3608,16.9,1.37,39804,19.8,-9.3,yes,https://getfreecarcheck.co.uk/cars/kia/optima
+Kia,Picanto,City car,46284,11.6,0.94,16771,29.3,26.7,yes,https://getfreecarcheck.co.uk/cars/kia/picanto
+Kia,ProCeed,Family hatchback,2439,16.9,1.37,30521,28.3,16.5,yes,https://getfreecarcheck.co.uk/cars/kia/proceed
+Kia,Rio,Small car,14053,11.4,0.93,21720,30.9,17.2,yes,https://getfreecarcheck.co.uk/cars/kia/rio
+Kia,Sorento,Family SUV,7302,13.9,1.13,30295,30.2,1.8,yes,https://getfreecarcheck.co.uk/cars/kia/sorento
+Kia,Soul,Family hatchback,3303,10.7,0.87,23332,28.5,4.5,yes,https://getfreecarcheck.co.uk/cars/kia/soul
+Kia,Sportage,Family SUV,91143,13.9,1.13,27238,22.8,0.4,yes,https://getfreecarcheck.co.uk/cars/kia/sportage
+Kia,Stinger,Large family car,1863,10.4,0.85,25076,10.7,-24.9,yes,https://getfreecarcheck.co.uk/cars/kia/stinger
+Kia,Stonic,Small SUV,18633,9.3,0.76,22729,11.9,-9.9,yes,https://getfreecarcheck.co.uk/cars/kia/stonic
+Kia,Venga,Small car,5311,12,0.98,16018,26,15,yes,https://getfreecarcheck.co.uk/cars/kia/venga
+Kia,XCeed,Small SUV,9487,12,0.98,25379,12.4,2.6,yes,https://getfreecarcheck.co.uk/cars/kia/xceed
+Lamborghini,Huracan,Sports car and convertible,917,2.3,0.19,9290,2.6,-78.1,no,https://getfreecarcheck.co.uk/cars/lamborghini/huracan
+Land Rover,Defender,Large SUV,17427,5.8,0.47,32833,28.8,-15.2,yes,https://getfreecarcheck.co.uk/cars/land-rover/defender
+Land Rover,Discovery,Large SUV,30167,11.7,0.95,36627,25.3,-26.3,yes,https://getfreecarcheck.co.uk/cars/land-rover/discovery
+Land Rover,Discovery Sport,Family SUV,47704,16.1,1.31,30676,16.5,-14.1,yes,https://getfreecarcheck.co.uk/cars/land-rover/discovery-sport
+Land Rover,Range Rover,Large SUV,23020,8.4,0.68,32752,19.4,-39.2,yes,https://getfreecarcheck.co.uk/cars/land-rover/range-rover
+Land Rover,Range Rover Evoque,Family SUV,68584,10.7,0.87,26619,15.2,-32.9,yes,https://getfreecarcheck.co.uk/cars/land-rover/range-rover-evoque
+Land Rover,Range Rover Sport,Large SUV,37681,10,0.81,31572,17.7,-38.3,yes,https://getfreecarcheck.co.uk/cars/land-rover/range-rover-sport
+Land Rover,Range Rover Velar,Large SUV,28233,14.1,1.15,30627,13.7,-13.4,yes,https://getfreecarcheck.co.uk/cars/land-rover/range-rover-velar
+LEVC,TX,Taxi,4811,14.4,1.17,80614,15.1,-29.4,no,https://getfreecarcheck.co.uk/cars/levc/tx
+LEVC,TX Vista,Taxi,2756,16.8,1.37,75382,13,-41.4,no,https://getfreecarcheck.co.uk/cars/levc/tx-vista
+Lexus,CT,Family hatchback,5520,9.5,0.77,25018,15.5,-40,yes,https://getfreecarcheck.co.uk/cars/lexus/ct
+Lexus,ES,Executive car,2986,7.7,0.63,30521,6.9,-51.8,yes,https://getfreecarcheck.co.uk/cars/lexus/es
+Lexus,IS,Executive car,2951,10.6,0.86,30977,22.6,-35.9,yes,https://getfreecarcheck.co.uk/cars/lexus/is
+Lexus,NX,Family SUV,14902,6.1,0.5,26025,9.2,-47.2,yes,https://getfreecarcheck.co.uk/cars/lexus/nx
+Lexus,RC,Executive car,1032,8.3,0.67,23561,9.6,-42.9,yes,https://getfreecarcheck.co.uk/cars/lexus/rc
+Lexus,RX,Large SUV,7105,4.5,0.37,27036,19.2,-43.1,yes,https://getfreecarcheck.co.uk/cars/lexus/rx
+Lexus,UX,Small SUV,10647,5.6,0.46,23981,5.8,-53,yes,https://getfreecarcheck.co.uk/cars/lexus/ux
+Lotus,Elise,Sports car and convertible,274,6.9,0.56,7157,14.2,-50.9,no,https://getfreecarcheck.co.uk/cars/lotus/elise
+Maserati,Ghibli,Luxury car,670,14.5,1.18,24203,14.6,-31.6,no,https://getfreecarcheck.co.uk/cars/maserati/ghibli
+Maserati,Levante,Family SUV,1869,9.6,0.78,26350,11,-31.4,yes,https://getfreecarcheck.co.uk/cars/maserati/levante
+Mazda,2,Small car,20636,8.5,0.69,19029,30.8,11.2,yes,https://getfreecarcheck.co.uk/cars/mazda/2
+Mazda,3,Family hatchback,16773,10.2,0.83,24031,31.9,7.8,yes,https://getfreecarcheck.co.uk/cars/mazda/3
+Mazda,6,Large family car,8301,9.2,0.75,28857,30,-4.2,yes,https://getfreecarcheck.co.uk/cars/mazda/6
+Mazda,Bongo,MPV and people carrier,390,31,2.52,81689,45.3,15.5,no,https://getfreecarcheck.co.uk/cars/mazda/bongo
+Mazda,CX-3,Small SUV,11565,8.6,0.7,21633,13.2,-17.2,yes,https://getfreecarcheck.co.uk/cars/mazda/cx-3
+Mazda,CX-30,Small SUV,9988,8.5,0.69,23336,8.8,-22.7,yes,https://getfreecarcheck.co.uk/cars/mazda/cx-30
+Mazda,CX-5,Family SUV,26769,11.1,0.9,27754,18,-15,yes,https://getfreecarcheck.co.uk/cars/mazda/cx-5
+Mazda,MX-5,Sports car and convertible,9366,5.8,0.47,14518,25.3,-16.5,yes,https://getfreecarcheck.co.uk/cars/mazda/mx-5
+McLaren,570,Sports car and convertible,411,3.2,0.26,9486,5,-55.3,no,https://getfreecarcheck.co.uk/cars/mclaren/570
+Mercedes-Benz,A-Class,Family hatchback,147110,10.7,0.87,27766,20.6,-9.1,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/a-class
+Mercedes-Benz,B-Class,Family hatchback,11955,9,0.73,20995,26.5,-5.5,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/b-class
+Mercedes-Benz,C-Class,Executive car,61066,10.9,0.89,28784,24,-18.1,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/c-class
+Mercedes-Benz,Citan,Van,6252,30.6,2.49,54056,37.2,51.8,no,https://getfreecarcheck.co.uk/cars/mercedes-benz/citan
+Mercedes-Benz,CLA,Family hatchback,27378,12.9,1.05,29936,17.7,-13.6,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/cla
+Mercedes-Benz,CLS,Executive car,2343,14.4,1.17,27339,24,-24.4,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/cls
+Mercedes-Benz,E-Class,Executive car,54955,12.1,0.98,32880,21,-27.4,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/e-class
+Mercedes-Benz,EQC,Family SUV,6985,10.1,0.82,31113,10.4,-20.5,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/eqc
+Mercedes-Benz,G-Class,Large SUV,442,10.9,0.89,29461,13.7,-39,no,https://getfreecarcheck.co.uk/cars/mercedes-benz/g-class
+Mercedes-Benz,GLA,Small SUV,43243,9,0.73,25504,13.4,-24.1,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/gla
+Mercedes-Benz,GLB,Family SUV,5693,9.7,0.79,29989,9.7,-23.9,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/glb
+Mercedes-Benz,GLC,Family SUV,51806,8.6,0.7,30008,11.3,-33.2,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/glc
+Mercedes-Benz,GLE,Large SUV,18743,9.3,0.76,33390,10.6,-41.6,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/gle
+Mercedes-Benz,GLS,Large SUV,1771,9.9,0.8,32306,11.1,-35.8,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/gls
+Mercedes-Benz,GT,Sports car and convertible,522,5.4,0.44,13045,5.8,-54.8,no,https://getfreecarcheck.co.uk/cars/mercedes-benz/gt
+Mercedes-Benz,S-Class,Luxury car,5706,6.2,0.5,37378,15.8,-46.3,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/s-class
+Mercedes-Benz,SL,Sports car and convertible,1062,6.3,0.51,13424,15.3,-51.1,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/sl
+Mercedes-Benz,SLC,Sports car and convertible,3005,7.3,0.59,14947,11.8,-17.7,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/slc
+Mercedes-Benz,Sprinter,Van,3620,14.9,1.21,51588,29.2,-13.1,no,https://getfreecarcheck.co.uk/cars/mercedes-benz/sprinter
+Mercedes-Benz,V-Class,MPV and people carrier,6218,14.5,1.18,39200,17,-23.6,yes,https://getfreecarcheck.co.uk/cars/mercedes-benz/v-class
+Mercedes-Benz,Vito,Van,19962,23.4,1.9,57959,33.7,2.9,no,https://getfreecarcheck.co.uk/cars/mercedes-benz/vito
+Mercedes-Benz,X-Class,Pickup,3283,17.6,1.43,39057,17.1,-1.2,no,https://getfreecarcheck.co.uk/cars/mercedes-benz/x-class
+MG,3,Small car,9187,16,1.3,19364,23.4,44.4,yes,https://getfreecarcheck.co.uk/cars/mg/3
+MG,GS,Family hatchback,1028,11.2,0.91,25396,21.3,31.2,yes,https://getfreecarcheck.co.uk/cars/mg/gs
+MG,HS Exclusive,Family SUV,5673,8.2,0.67,24414,8.3,-28.7,yes,https://getfreecarcheck.co.uk/cars/mg/hs-exclusive
+MG,ZS,Small SUV,33993,13.8,1.12,24430,18.3,25.1,yes,https://getfreecarcheck.co.uk/cars/mg/zs
+MINI,Clubman,Small car,4702,11.4,0.93,26045,16.1,-12.3,yes,https://getfreecarcheck.co.uk/cars/mini/clubman
+MINI,Countryman,Small SUV,38602,10.3,0.84,23738,15.5,-28.5,yes,https://getfreecarcheck.co.uk/cars/mini/countryman
+MINI,Hatch,Small car,148020,9.7,0.79,21029,25.6,-10.1,yes,https://getfreecarcheck.co.uk/cars/mini/hatch
+Mitsubishi,ASX,Small SUV,5095,10.5,0.85,23706,22.1,-12.5,yes,https://getfreecarcheck.co.uk/cars/mitsubishi/asx
+Mitsubishi,Eclipse,Family SUV,10045,10.8,0.88,25579,12.6,-8.7,yes,https://getfreecarcheck.co.uk/cars/mitsubishi/eclipse
+Mitsubishi,L200,Pickup,21719,14.7,1.2,38619,31.2,0.9,no,https://getfreecarcheck.co.uk/cars/mitsubishi/l200
+Mitsubishi,Mirage,City car,2719,12.8,1.04,16172,18.1,-2.3,yes,https://getfreecarcheck.co.uk/cars/mitsubishi/mirage
+Mitsubishi,Outlander,Family SUV,22003,13.8,1.12,34259,21.9,-11.5,yes,https://getfreecarcheck.co.uk/cars/mitsubishi/outlander
+Mitsubishi,Shogun,Large SUV,3638,12.6,1.02,32347,33.1,-10.7,yes,https://getfreecarcheck.co.uk/cars/mitsubishi/shogun
+Nissan,Cube,Small car,319,29.2,2.37,78588,29.3,-14.9,no,https://getfreecarcheck.co.uk/cars/nissan/cube
+Nissan,e-NV200,Van,4791,26.2,2.13,23532,26.3,102.9,no,https://getfreecarcheck.co.uk/cars/nissan/e-nv200
+Nissan,Elgrand,MPV and people carrier,2104,32.8,2.67,83564,29,-16.9,no,https://getfreecarcheck.co.uk/cars/nissan/elgrand
+Nissan,GT-R,Sports car and convertible,356,4.8,0.39,12572,5.6,-76.2,no,https://getfreecarcheck.co.uk/cars/nissan/gt-r
+Nissan,Juke,Small SUV,67677,13.5,1.1,22096,29.1,25.6,yes,https://getfreecarcheck.co.uk/cars/nissan/juke
+Nissan,Leaf,Family hatchback,24941,10.3,0.84,25818,20,11.3,yes,https://getfreecarcheck.co.uk/cars/nissan/leaf
+Nissan,Micra,Small car,23554,10.6,0.86,19104,36.3,20.1,yes,https://getfreecarcheck.co.uk/cars/nissan/micra
+Nissan,Navara,Pickup,24478,18,1.46,41987,31.6,11.1,no,https://getfreecarcheck.co.uk/cars/nissan/navara
+Nissan,NV200,Van,2516,29.5,2.4,36542,42.6,50.7,no,https://getfreecarcheck.co.uk/cars/nissan/nv200
+Nissan,NV300,Van,1332,22.7,1.85,48649,27.3,43.4,no,https://getfreecarcheck.co.uk/cars/nissan/nv300
+Nissan,Pulsar,Family hatchback,1428,10.6,0.86,22526,23.9,18.2,yes,https://getfreecarcheck.co.uk/cars/nissan/pulsar
+Nissan,Qashqai,Family SUV,135921,10.5,0.85,26583,30.4,15,yes,https://getfreecarcheck.co.uk/cars/nissan/qashqai
+Nissan,Serena,MPV and people carrier,346,28.3,2.3,90691,21.3,-33.4,no,https://getfreecarcheck.co.uk/cars/nissan/serena
+Nissan,X-Trail,Family SUV,18854,12.9,1.05,28760,29.3,6.3,yes,https://getfreecarcheck.co.uk/cars/nissan/x-trail
+Peugeot,108,City car,17286,10,0.81,15777,17.3,3.2,yes,https://getfreecarcheck.co.uk/cars/peugeot/108
+Peugeot,2008,Small SUV,47677,12.8,1.04,24800,25.1,33.2,yes,https://getfreecarcheck.co.uk/cars/peugeot/2008
+Peugeot,208,Small car,51228,13.2,1.07,22188,27.5,26.5,yes,https://getfreecarcheck.co.uk/cars/peugeot/208
+Peugeot,3008,Family SUV,54469,11.8,0.96,28882,28.6,20.8,yes,https://getfreecarcheck.co.uk/cars/peugeot/3008
+Peugeot,308,Family hatchback,18003,13.9,1.13,29773,35.2,17.7,yes,https://getfreecarcheck.co.uk/cars/peugeot/308
+Peugeot,5008,Family SUV,16704,16.4,1.33,31463,33.1,37.5,yes,https://getfreecarcheck.co.uk/cars/peugeot/5008
+Peugeot,508,Large family car,5710,18.1,1.47,34654,28.2,-4,yes,https://getfreecarcheck.co.uk/cars/peugeot/508
+Peugeot,Boxer,Van,5669,14.3,1.16,15375,26.5,-0.9,no,https://getfreecarcheck.co.uk/cars/peugeot/boxer
+Peugeot,Expert,Van,15896,18.9,1.54,42694,36.6,21.1,no,https://getfreecarcheck.co.uk/cars/peugeot/expert
+Peugeot,Partner,Van,39132,26.4,2.15,50023,38.1,32,no,https://getfreecarcheck.co.uk/cars/peugeot/partner
+Peugeot,Rifter,MPV and people carrier,6346,19.2,1.56,19834,18.9,56.1,yes,https://getfreecarcheck.co.uk/cars/peugeot/rifter
+Porsche,911,Sports car and convertible,8320,4.4,0.36,12783,10.4,-62,yes,https://getfreecarcheck.co.uk/cars/porsche/911
+Porsche,Boxster,Sports car and convertible,2739,4.7,0.38,14576,16.4,-47.8,yes,https://getfreecarcheck.co.uk/cars/porsche/boxster
+Porsche,Cayenne,Large SUV,10527,5.5,0.45,28759,13.8,-51.7,yes,https://getfreecarcheck.co.uk/cars/porsche/cayenne
+Porsche,Cayman,Sports car and convertible,3281,3.7,0.3,15976,9.8,-60.2,yes,https://getfreecarcheck.co.uk/cars/porsche/cayman
+Porsche,Macan,Family SUV,18908,5.2,0.42,26123,7.6,-58.2,yes,https://getfreecarcheck.co.uk/cars/porsche/macan
+Porsche,Panamera,Luxury car,2591,6.8,0.55,26373,10,-57.8,yes,https://getfreecarcheck.co.uk/cars/porsche/panamera
+Renault,Captur,Small SUV,56554,11.3,0.92,22435,21.4,15,yes,https://getfreecarcheck.co.uk/cars/renault/captur
+Renault,Clio,Small car,48224,16.1,1.31,23297,43.1,44,yes,https://getfreecarcheck.co.uk/cars/renault/clio
+Renault,Grand Scenic,MPV and people carrier,1657,20,1.63,28042,46.3,32.7,yes,https://getfreecarcheck.co.uk/cars/renault/grand-scenic
+Renault,Kadjar,Family SUV,30457,14.3,1.16,25907,20.8,18.6,yes,https://getfreecarcheck.co.uk/cars/renault/kadjar
+Renault,Kangoo,Van,7867,29.1,2.37,35681,46.4,39,no,https://getfreecarcheck.co.uk/cars/renault/kangoo
+Renault,Koleos,Family SUV,2351,14.2,1.15,29463,26,7.4,yes,https://getfreecarcheck.co.uk/cars/renault/koleos
+Renault,Master,Van,1922,19.3,1.57,49696,34.9,2.4,no,https://getfreecarcheck.co.uk/cars/renault/master
+Renault,Megane,Family hatchback,6137,19.3,1.57,27530,45.1,29.9,yes,https://getfreecarcheck.co.uk/cars/renault/megane
+Renault,Scenic,MPV and people carrier,718,12.7,1.03,22053,44.1,26.8,no,https://getfreecarcheck.co.uk/cars/renault/scenic
+Renault,Trafic,Van,20134,22,1.79,47497,41.5,30.2,no,https://getfreecarcheck.co.uk/cars/renault/trafic
+Renault,Twingo,City car,775,15.6,1.27,14499,36.6,32.7,no,https://getfreecarcheck.co.uk/cars/renault/twingo
+Renault,Zoe,Small car,12638,14.5,1.18,21499,26.5,76.3,yes,https://getfreecarcheck.co.uk/cars/renault/zoe
+SEAT,Alhambra,MPV and people carrier,5036,14.6,1.19,31378,26,-4.3,yes,https://getfreecarcheck.co.uk/cars/seat/alhambra
+SEAT,Arona,Small SUV,39883,10.8,0.88,23525,14.2,9.4,yes,https://getfreecarcheck.co.uk/cars/seat/arona
+SEAT,Ateca,Family SUV,31564,9.5,0.77,28470,11,-30,yes,https://getfreecarcheck.co.uk/cars/seat/ateca
+SEAT,Ibiza,Small car,36224,12,0.98,25684,33.6,21.3,yes,https://getfreecarcheck.co.uk/cars/seat/ibiza
+SEAT,Leon,Family hatchback,55475,13.3,1.08,29881,23.2,-13.8,yes,https://getfreecarcheck.co.uk/cars/seat/leon
+SEAT,Mii,City car,2193,11,0.89,17947,21.4,-0.3,yes,https://getfreecarcheck.co.uk/cars/seat/mii
+SEAT,Tarraco,Family SUV,7550,13.4,1.09,31115,14.2,0.5,yes,https://getfreecarcheck.co.uk/cars/seat/tarraco
+SEAT,Toledo,Family hatchback,923,13.2,1.07,27112,30,6.3,no,https://getfreecarcheck.co.uk/cars/seat/toledo
+Skoda,Citigo,City car,8739,9.1,0.74,17880,18.8,-4.9,yes,https://getfreecarcheck.co.uk/cars/skoda/citigo
+Skoda,Fabia,Small car,43380,13.2,1.07,22822,29.5,4,yes,https://getfreecarcheck.co.uk/cars/skoda/fabia
+Skoda,Kamiq,Small SUV,12275,10.8,0.88,24015,10.7,-7.2,yes,https://getfreecarcheck.co.uk/cars/skoda/kamiq
+Skoda,Karoq,Family SUV,45729,9.1,0.74,27173,9.6,-30.5,yes,https://getfreecarcheck.co.uk/cars/skoda/karoq
+Skoda,Kodiaq,Family SUV,28807,10,0.81,32509,11,-30.5,yes,https://getfreecarcheck.co.uk/cars/skoda/kodiaq
+Skoda,Octavia,Family hatchback,49806,11.6,0.94,36023,24.7,-16.2,yes,https://getfreecarcheck.co.uk/cars/skoda/octavia
+Skoda,Rapid,Family hatchback,2046,14.5,1.18,29074,23.9,0.9,yes,https://getfreecarcheck.co.uk/cars/skoda/rapid
+Skoda,Scala,Family hatchback,6872,11.1,0.9,26259,11.5,-6.7,yes,https://getfreecarcheck.co.uk/cars/skoda/scala
+Skoda,Superb,Large family car,20521,13.7,1.11,40639,21.4,-17.3,yes,https://getfreecarcheck.co.uk/cars/skoda/superb
+Smart,Forfour,City car,4278,14.4,1.17,16888,25.6,29.8,yes,https://getfreecarcheck.co.uk/cars/smart/forfour
+Smart,Fortwo,City car,4035,11.4,0.93,14641,20.8,7.4,yes,https://getfreecarcheck.co.uk/cars/smart/fortwo
+SsangYong,Korando,Family SUV,2295,17.8,1.45,24388,31.8,44.2,yes,https://getfreecarcheck.co.uk/cars/ssangyong/korando
+SsangYong,Musso,Pickup,1551,31.5,2.56,36091,34.9,98.3,no,https://getfreecarcheck.co.uk/cars/ssangyong/musso
+SsangYong,Rexton,Large SUV,990,15.6,1.27,29294,35.6,36,no,https://getfreecarcheck.co.uk/cars/ssangyong/rexton
+SsangYong,Rodius,MPV and people carrier,382,25.1,2.04,29665,38.5,64.6,no,https://getfreecarcheck.co.uk/cars/ssangyong/rodius
+SsangYong,Tivoli,Small SUV,2238,17.7,1.44,21830,26.6,53,yes,https://getfreecarcheck.co.uk/cars/ssangyong/tivoli
+Subaru,Forester,Family SUV,2470,9.7,0.79,25583,29.5,-10.3,yes,https://getfreecarcheck.co.uk/cars/subaru/forester
+Subaru,Impreza,Family hatchback,486,14.4,1.17,33548,25,-38,no,https://getfreecarcheck.co.uk/cars/subaru/impreza
+Subaru,Outback,Large family car,1666,9.5,0.77,29305,25.8,-16,yes,https://getfreecarcheck.co.uk/cars/subaru/outback
+Subaru,XV,Small SUV,2328,7.9,0.64,23646,17.8,-13.4,yes,https://getfreecarcheck.co.uk/cars/subaru/xv
+Suzuki,Baleno,Small car,2094,13.3,1.08,21612,23.3,43.7,yes,https://getfreecarcheck.co.uk/cars/suzuki/baleno
+Suzuki,Celerio,City car,4866,10.9,0.89,15898,14.6,-8.2,yes,https://getfreecarcheck.co.uk/cars/suzuki/celerio
+Suzuki,Ignis,Small car,13635,9.6,0.78,17391,23.5,9.5,yes,https://getfreecarcheck.co.uk/cars/suzuki/ignis
+Suzuki,Jimny,Small SUV,2828,7.3,0.59,17499,30.9,-4.5,yes,https://getfreecarcheck.co.uk/cars/suzuki/jimny
+Suzuki,SX4,Family hatchback,5579,9.4,0.76,22101,28.8,6.1,yes,https://getfreecarcheck.co.uk/cars/suzuki/sx4
+Suzuki,Vitara,Small SUV,30346,9.3,0.76,24249,14.8,-13.6,yes,https://getfreecarcheck.co.uk/cars/suzuki/vitara
+Tesla,Model 3,Large family car,56655,14.5,1.18,36229,14.7,0.5,yes,https://getfreecarcheck.co.uk/cars/tesla/model-3
+Tesla,Model S,Executive car,3563,15,1.22,37674,16.8,-20.5,yes,https://getfreecarcheck.co.uk/cars/tesla/model-s
+Tesla,Model X,Large SUV,4293,14.7,1.2,34891,15.7,-10.5,yes,https://getfreecarcheck.co.uk/cars/tesla/model-x
+Toyota,Alphard,MPV and people carrier,1751,28.8,2.34,78980,23.2,-31.7,no,https://getfreecarcheck.co.uk/cars/toyota/alphard
+Toyota,Auris,Family hatchback,10687,15.5,1.26,30864,26.2,-11,yes,https://getfreecarcheck.co.uk/cars/toyota/auris
+Toyota,Avensis,Large family car,654,12.8,1.04,47770,33.7,-11.5,no,https://getfreecarcheck.co.uk/cars/toyota/avensis
+Toyota,Aygo,City car,58801,9.5,0.77,17557,24.5,2.3,yes,https://getfreecarcheck.co.uk/cars/toyota/aygo
+Toyota,C-HR,Small SUV,57533,10.7,0.87,27417,14.2,-6.2,yes,https://getfreecarcheck.co.uk/cars/toyota/c-hr
+Toyota,Corolla,Family hatchback,44861,10.8,0.88,31975,32.2,-8.6,yes,https://getfreecarcheck.co.uk/cars/toyota/corolla
+Toyota,Estima,MPV and people carrier,2374,28.4,2.31,99041,20.8,-37.1,no,https://getfreecarcheck.co.uk/cars/toyota/estima
+Toyota,GT86,Sports car and convertible,1019,5.3,0.43,19215,14.8,-37.1,yes,https://getfreecarcheck.co.uk/cars/toyota/gt86
+Toyota,Hilux,Pickup,19106,18,1.46,41669,31.5,3.9,no,https://getfreecarcheck.co.uk/cars/toyota/hilux
+Toyota,Land Cruiser,Large SUV,1903,12.9,1.05,32649,28.6,-25.3,yes,https://getfreecarcheck.co.uk/cars/toyota/land-cruiser
+Toyota,Prius,Family hatchback,37467,12.6,1.02,55485,20.9,-30.6,yes,https://getfreecarcheck.co.uk/cars/toyota/prius
+Toyota,Prius+,MPV and people carrier,1038,11.6,0.94,68438,16.1,-40.9,no,https://getfreecarcheck.co.uk/cars/toyota/prius-plus
+Toyota,Proace,Van,6355,25.3,2.06,45284,31.2,46.9,no,https://getfreecarcheck.co.uk/cars/toyota/proace
+Toyota,RAV4,Family SUV,34689,8.2,0.67,29671,25.3,-20,yes,https://getfreecarcheck.co.uk/cars/toyota/rav4
+Toyota,Verso,MPV and people carrier,511,14.7,1.2,26973,27.6,-8,no,https://getfreecarcheck.co.uk/cars/toyota/verso
+Toyota,Voxy,MPV and people carrier,230,11.7,0.95,51994,11.7,-54.7,no,https://getfreecarcheck.co.uk/cars/toyota/voxy
+Toyota,Yaris,Small car,83425,10.4,0.85,19348,28.9,0.5,yes,https://getfreecarcheck.co.uk/cars/toyota/yaris
+Vauxhall,Adam,City car,8359,18.8,1.53,19061,27.2,32.3,yes,https://getfreecarcheck.co.uk/cars/vauxhall/adam
+Vauxhall,Astra,Family hatchback,52276,13.7,1.11,28604,34.5,6.1,yes,https://getfreecarcheck.co.uk/cars/vauxhall/astra
+Vauxhall,Combo,Van,41196,29.2,2.37,42207,41.4,29.3,no,https://getfreecarcheck.co.uk/cars/vauxhall/combo
+Vauxhall,Corsa,Small car,165278,18.2,1.48,23355,36.4,28.1,yes,https://getfreecarcheck.co.uk/cars/vauxhall/corsa
+Vauxhall,Crossland,Small SUV,53126,11.2,0.91,24143,14.3,9.9,yes,https://getfreecarcheck.co.uk/cars/vauxhall/crossland
+Vauxhall,Grandland,Family SUV,64657,11.1,0.9,27634,13.6,-1.5,yes,https://getfreecarcheck.co.uk/cars/vauxhall/grandland
+Vauxhall,Insignia,Large family car,19368,18.4,1.5,41008,31,1.9,yes,https://getfreecarcheck.co.uk/cars/vauxhall/insignia
+Vauxhall,Mokka,Small SUV,47568,12.1,0.98,23973,25.6,26.9,yes,https://getfreecarcheck.co.uk/cars/vauxhall/mokka
+Vauxhall,Movano,Van,799,28.3,2.3,42186,39.2,14.6,no,https://getfreecarcheck.co.uk/cars/vauxhall/movano
+Vauxhall,Viva,City car,7882,11.5,0.93,16003,15.6,1.7,yes,https://getfreecarcheck.co.uk/cars/vauxhall/viva
+Vauxhall,Vivaro,Van,33834,24.7,2.01,50125,43.6,33.4,no,https://getfreecarcheck.co.uk/cars/vauxhall/vivaro
+Vauxhall,Zafira,MPV and people carrier,2921,19.2,1.56,26269,38.5,12.2,yes,https://getfreecarcheck.co.uk/cars/vauxhall/zafira
+Volkswagen,Amarok,Pickup,7644,13.1,1.07,45545,21.1,-16.9,no,https://getfreecarcheck.co.uk/cars/volkswagen/amarok
+Volkswagen,Arteon,Large family car,6614,12.6,1.02,32819,11.9,-25.2,yes,https://getfreecarcheck.co.uk/cars/volkswagen/arteon
+Volkswagen,Beetle,Family hatchback,630,13.3,1.08,19495,41.3,18.8,no,https://getfreecarcheck.co.uk/cars/volkswagen/beetle
+Volkswagen,Caddy,Van,29337,18.7,1.52,42628,30.5,-2.2,no,https://getfreecarcheck.co.uk/cars/volkswagen/caddy
+Volkswagen,California,Campervan,3371,10.3,0.84,23163,17.1,-18.7,no,https://getfreecarcheck.co.uk/cars/volkswagen/california
+Volkswagen,Caravelle,MPV and people carrier,2511,16,1.3,31797,33.5,-3.6,yes,https://getfreecarcheck.co.uk/cars/volkswagen/caravelle
+Volkswagen,Crafter,Van,1182,13.9,1.13,39755,29.7,-7.8,no,https://getfreecarcheck.co.uk/cars/volkswagen/crafter
+Volkswagen,e-Golf,Family hatchback,7259,12.1,0.98,25501,12.4,-3.6,yes,https://getfreecarcheck.co.uk/cars/volkswagen/e-golf
+Volkswagen,Golf,Family hatchback,163800,9.7,0.79,28702,25.8,-16.5,yes,https://getfreecarcheck.co.uk/cars/volkswagen/golf
+Volkswagen,Passat,Large family car,24960,12.7,1.03,45090,29.2,-14.9,yes,https://getfreecarcheck.co.uk/cars/volkswagen/passat
+Volkswagen,Polo,Small car,112852,11.7,0.95,23540,32.8,16.2,yes,https://getfreecarcheck.co.uk/cars/volkswagen/polo
+Volkswagen,Scirocco,Family hatchback,320,10,0.81,24279,28.5,-10,no,https://getfreecarcheck.co.uk/cars/volkswagen/scirocco
+Volkswagen,Sharan,MPV and people carrier,11138,15,1.22,40943,25.4,-10.6,yes,https://getfreecarcheck.co.uk/cars/volkswagen/sharan
+Volkswagen,T-Cross,Small SUV,17300,10,0.81,22816,10.6,-9.1,yes,https://getfreecarcheck.co.uk/cars/volkswagen/t-cross
+Volkswagen,T-Roc,Small SUV,65789,8.1,0.66,26638,9,-34,yes,https://getfreecarcheck.co.uk/cars/volkswagen/t-roc
+Volkswagen,Tiguan,Family SUV,103262,10.7,0.87,30039,17.4,-24.2,yes,https://getfreecarcheck.co.uk/cars/volkswagen/tiguan
+Volkswagen,Touareg,Large SUV,9319,8.9,0.72,34081,22.5,-26.2,yes,https://getfreecarcheck.co.uk/cars/volkswagen/touareg
+Volkswagen,Touran,MPV and people carrier,9420,13.2,1.07,28750,32.9,-5.9,yes,https://getfreecarcheck.co.uk/cars/volkswagen/touran
+Volkswagen,Transporter,Van,55268,16.3,1.33,37712,31.7,-4.7,no,https://getfreecarcheck.co.uk/cars/volkswagen/transporter
+Volkswagen,up!,City car,21296,9.4,0.76,16726,18.8,-7.3,yes,https://getfreecarcheck.co.uk/cars/volkswagen/up
+Volvo,S60,Executive car,3461,11.2,0.91,27111,29,-14.8,yes,https://getfreecarcheck.co.uk/cars/volvo/s60
+Volvo,S90,Executive car,5062,10.9,0.89,33736,11.7,-32.4,yes,https://getfreecarcheck.co.uk/cars/volvo/s90
+Volvo,V40,Family hatchback,17840,14.3,1.16,26171,25.9,9.6,yes,https://getfreecarcheck.co.uk/cars/volvo/v40
+Volvo,V60,Executive car,12700,12.7,1.03,33499,21.6,-17.1,yes,https://getfreecarcheck.co.uk/cars/volvo/v60
+Volvo,V90,Executive car,10824,13,1.06,35193,14.4,-18,yes,https://getfreecarcheck.co.uk/cars/volvo/v90
+Volvo,XC40,Small SUV,71397,8.8,0.72,28257,9.3,-30.4,yes,https://getfreecarcheck.co.uk/cars/volvo/xc40
+Volvo,XC60,Family SUV,33159,9.3,0.76,32240,19.5,-22.1,yes,https://getfreecarcheck.co.uk/cars/volvo/xc60
+Volvo,XC90,Large SUV,20851,12.5,1.02,35367,27.3,-12.4,yes,https://getfreecarcheck.co.uk/cars/volvo/xc90

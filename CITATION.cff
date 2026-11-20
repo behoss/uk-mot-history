@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "uk-mot-history: Python and TypeScript client for the UK DVSA MOT History API"
+authors:
+  - name: "Bez"
+    website: "https://behoss.github.io"
+license: MIT
+repository-code: "https://github.com/behoss/uk-mot-history"
+url: "https://behoss.github.io/uk-mot-history/"
+version: 0.1.0
+date-released: 2026-11-20
+keywords: [mot, dvsa, uk, vehicle-data, api-client]

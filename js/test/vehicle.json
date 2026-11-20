@@ -1,0 +1,68 @@
+{
+  "registration": "AB12CDE",
+  "make": "FORD",
+  "model": "FOCUS",
+  "firstUsedDate": "2012-03-01",
+  "registrationDate": "2012-03-01",
+  "manufactureDate": "2012-02-14",
+  "engineSize": "1596",
+  "fuelType": "Petrol",
+  "primaryColour": "Silver",
+  "hasOutstandingRecall": "No",
+  "motTests": [
+    {
+      "registrationAtTimeOfTest": "AB12CDE",
+      "completedDate": "2024-02-27T11:42:10.000Z",
+      "testResult": "PASSED",
+      "expiryDate": "2025-02-28",
+      "odometerValue": "71240",
+      "odometerUnit": "MI",
+      "odometerResultType": "READ",
+      "motTestNumber": "100000000004",
+      "dataSource": "DVSA",
+      "defects": [
+        { "text": "Nearside Front Tyre worn close to legal limit/worn on edge (5.2.3 (e))", "type": "ADVISORY", "dangerous": false }
+      ]
+    },
+    {
+      "registrationAtTimeOfTest": "AB12CDE",
+      "completedDate": "2023-02-20T09:15:00.000Z",
+      "testResult": "PASSED",
+      "expiryDate": "2024-02-28",
+      "odometerValue": "58410",
+      "odometerUnit": "MI",
+      "odometerResultType": "READ",
+      "motTestNumber": "100000000003",
+      "dataSource": "DVSA",
+      "defects": []
+    },
+    {
+      "registrationAtTimeOfTest": "AB12CDE",
+      "completedDate": "2022-02-24T14:03:00.000Z",
+      "testResult": "FAILED",
+      "odometerValue": "61002",
+      "odometerUnit": "MI",
+      "odometerResultType": "READ",
+      "motTestNumber": "100000000002",
+      "dataSource": "DVSA",
+      "defects": [
+        { "text": "Offside Rear Brake pipe excessively corroded (1.1.11 (c))", "type": "MAJOR", "dangerous": false },
+        { "text": "Nearside Front Suspension arm ball joint excessively worn (5.3.4 (a) (i))", "type": "DANGEROUS", "dangerous": true }
+      ]
+    },
+    {
+      "registrationAtTimeOfTest": "AB12CDE",
+      "completedDate": "2021-02-25T10:30:00.000Z",
+      "testResult": "PASSED",
+      "expiryDate": "2022-02-28",
+      "odometerValue": "49870",
+      "odometerUnit": "MI",
+      "odometerResultType": "READ",
+      "motTestNumber": "100000000001",
+      "dataSource": "DVSA",
+      "defects": [
+        { "text": "Front Brake disc worn, pitted or scored, but not seriously weakened (1.1.14 (a) (ii))", "type": "ADVISORY", "dangerous": false }
+      ]
+    }
+  ]
+}

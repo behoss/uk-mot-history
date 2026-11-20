@@ -1,0 +1,29 @@
+{
+  "name": "uk-mot-history",
+  "version": "0.1.0",
+  "description": "Zero-dependency TypeScript/JavaScript client for the UK DVSA MOT History API: MOT tests, mileage, defects and clocking warnings by registration or VIN. Node 20+ and Cloudflare Workers.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/client.test.js",
+    "typecheck": "tsc -p ."
+  },
+  "keywords": ["mot", "mot-history", "dvsa", "uk", "car-check", "vehicle-data", "cloudflare-workers", "typescript"],
+  "author": "Bez",
+  "license": "MIT",
+  "homepage": "https://behoss.github.io/uk-mot-history/",
+  "repository": { "type": "git", "url": "git+https://github.com/behoss/uk-mot-history.git", "directory": "js" },
+  "bugs": "https://github.com/behoss/uk-mot-history/issues",
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

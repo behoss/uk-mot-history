@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>uk-mot-history: Python and TypeScript client for the DVSA MOT History API</title>
+<meta name="description" content="Free, open-source Python and TypeScript client for the UK DVSA MOT History API. Look up MOT tests, mileage, defects and recalls by registration or VIN, with clocking warnings, token caching and retries.">
+<link rel="canonical" href="https://behoss.github.io/uk-mot-history/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="uk-mot-history: the DVSA MOT History API client for Python and TypeScript">
+<meta property="og:description" content="MOT tests, mileage, defects and clocking warnings by registration or VIN. Zero dependencies. Node 20+, Cloudflare Workers and Python 3.12+.">
+<meta property="og:url" content="https://behoss.github.io/uk-mot-history/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://behoss.github.io/uk-mot-history/#code",
+      "name": "uk-mot-history",
+      "description": "Python and TypeScript client for the UK DVSA MOT History API: MOT tests, mileage, defects and clocking warnings by registration or VIN.",
+      "url": "https://behoss.github.io/uk-mot-history/",
+      "codeRepository": "https://github.com/behoss/uk-mot-history",
+      "programmingLanguage": ["Python", "TypeScript", "JavaScript"],
+      "runtimePlatform": ["Python 3.12", "Node.js 20", "Cloudflare Workers"],
+      "license": "https://opensource.org/licenses/MIT",
+      "keywords": "MOT history API, DVSA, UK vehicle data, MOT check, mileage check, clocking, Python, TypeScript",
+      "author": { "@type": "Person", "name": "Bez", "url": "https://behoss.github.io" },
+      "isBasedOn": "https://documentation.history.mot.api.gov.uk/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://behoss.github.io/uk-mot-history/#page",
+      "url": "https://behoss.github.io/uk-mot-history/",
+      "name": "uk-mot-history: Python and TypeScript client for the DVSA MOT History API",
+      "inLanguage": "en-GB",
+      "about": { "@id": "https://behoss.github.io/uk-mot-history/#code" },
+      "author": { "@type": "Person", "name": "Bez", "url": "https://behoss.github.io" }
+    }
+  ]
+}
+</script>
+<style>
+:root {
+  --ink: #0f172a; --body: #334155; --muted: #64748b; --line: #e2e8f0; --soft: #f8fafc; --card: #ffffff;
+  --brand: #1d4ed8; --brand-ink: #1e3a8a; --brand-soft: #eff6ff; --plate: #fcd34d; --code: #f1f5f9; --ok: #15803d; --warn: #b45309;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; color: var(--body); background: #fff; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--brand); text-underline-offset: 3px; }
+a:hover { color: var(--brand-ink); }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+header.top { border-bottom: 1px solid var(--line); background: #fff; }
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; flex-wrap: wrap; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--ink); text-decoration: none; font-size: 18px; }
+.logo .plate { background: var(--plate); color: #111; border: 2px solid #111; border-radius: 6px; padding: 1px 8px; font: 700 15px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .04em; }
+nav.links { display: flex; gap: 20px; flex-wrap: wrap; font-size: 15px; }
+nav.links a { color: var(--body); text-decoration: none; padding: 10px 0; }
+nav.links a:hover { color: var(--brand); }
+.hero { background: linear-gradient(180deg, var(--brand-soft), #fff); padding: 72px 0 56px; border-bottom: 1px solid var(--line); }
+.hero h1 { color: var(--ink); font-size: clamp(32px, 5vw, 52px); line-height: 1.1; margin: 0 0 18px; letter-spacing: -0.02em; max-width: 880px; }
+.hero p.lead { font-size: clamp(18px, 2.2vw, 21px); max-width: 760px; margin: 0 0 28px; }
+.cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 10px; font-weight: 600; text-decoration: none; font-size: 16px; border: 1px solid transparent; }
+.btn.primary { background: var(--brand); color: #fff; }
+.btn.primary:hover { background: var(--brand-ink); color: #fff; }
+.btn.ghost { background: #fff; color: var(--ink); border-color: var(--line); }
+.btn.ghost:hover { border-color: var(--brand); color: var(--brand); }
+.badges { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 26px; padding: 0; list-style: none; font-size: 14px; color: var(--muted); }
+.badges li { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; }
+.notice { margin: 32px 0 0; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--plate); border-radius: 10px; padding: 16px 20px; max-width: 760px; }
+.notice strong { color: var(--ink); }
+main section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+main section:nth-of-type(even) { background: var(--soft); }
+h2 { color: var(--ink); font-size: clamp(26px, 3.2vw, 34px); line-height: 1.2; margin: 0 0 14px; letter-spacing: -0.01em; }
+h3 { color: var(--ink); font-size: 19px; margin: 0 0 8px; }
+p.sub { margin: 0 0 28px; max-width: 760px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+.card p { margin: 0; font-size: 16px; }
+.two { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.two > div { min-width: 0; }
+pre { margin: 0 0 18px; background: var(--code); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; overflow-x: auto; font: 14px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--ink); }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+p code, li code, td code { background: var(--code); border-radius: 5px; padding: 1px 6px; }
+.label { display: inline-block; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+pre .warn { color: var(--warn); font-weight: 700; }
+pre .ok { color: var(--ok); font-weight: 700; }
+pre .bad { color: #b91c1c; font-weight: 700; }
+ol.steps { padding-left: 22px; margin: 0 0 22px; max-width: 820px; }
+ol.steps li { margin-bottom: 10px; }
+.table { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink); background: var(--soft); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+ul.notes { padding-left: 20px; margin: 0; max-width: 900px; }
+ul.notes li { margin-bottom: 12px; }
+.banner { background: var(--ink); color: #e2e8f0; border-radius: 18px; padding: 40px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; align-items: center; }
+.banner h2 { color: #fff; }
+.banner p { margin: 0; font-size: 18px; }
+.banner .btn.primary { background: var(--plate); color: #111; }
+.banner .btn.primary:hover { background: #fbbf24; color: #111; }
+.banner .side { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.banner .side span { font-size: 14px; color: #94a3b8; }
+footer { padding: 36px 0 48px; font-size: 15px; color: var(--muted); }
+footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .banner { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 18px; }
+  .grid { grid-template-columns: 1fr; }
+  .hero { padding: 48px 0 40px; }
+  main section { padding: 44px 0; }
+  .banner { padding: 26px; }
+  nav.links { gap: 16px; }
+  .btn { width: 100%; }
+  pre { font-size: 13px; padding: 14px; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="https://behoss.github.io/uk-mot-history/"><span class="plate">MOT</span> uk-mot-history</a>
+    <nav class="links" aria-label="Sections">
+      <a href="#quick-start">Quick start</a>
+      <a href="#api-key">Get a key</a>
+      <a href="#gotchas">API notes</a>
+      <a href="https://github.com/behoss/uk-mot-history">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>The MOT History API client for Python and TypeScript</h1>
+    <p class="lead">Look up every MOT test, mileage reading, defect and recall flag for any UK vehicle by registration or VIN, straight from the official DVSA MOT History API. OAuth handled, tokens cached, retries built in, and a clocking warning wherever the mileage went down.</p>
+    <div class="cta">
+      <a class="btn primary" href="#quick-start">Start in 10 lines</a>
+      <a class="btn ghost" href="https://github.com/behoss/uk-mot-history">View on GitHub</a>
+    </div>
+    <ul class="badges">
+      <li>MIT licence</li><li>Zero dependencies</li><li>Python 3.12+</li><li>Node 20+ and Cloudflare Workers</li><li>Fully typed</li>
+    </ul>
+    <p class="notice"><strong>Don't want to code?</strong> Run a <a href="https://getfreecarcheck.co.uk">free car check by reg at GetFreeCarCheck</a>: MOT history, mileage, ULEZ, tax and recalls in seconds, no sign-up.</p>
+  </div>
+</div>
+
+<main>
+<section id="features">
+  <div class="wrap">
+    <h2>Everything the raw API makes you build yourself</h2>
+    <p class="sub">The DVSA API needs an Entra ID token and an API key on every call, rate-limits hard and returns strings for numbers. This package deals with all of it so you can ship the feature.</p>
+    <div class="grid">
+      <div class="card"><h3>OAuth2 done for you</h3><p>Client-credentials token fetched once, cached for its 60 minutes, refreshed on 401. Concurrent JavaScript calls share one token request.</p></div>
+      <div class="card"><h3>Retries that respect limits</h3><p>429 and 5xx retried with <code>Retry-After</code> and exponential backoff. Typed errors for not found, invalid, auth and rate limits.</p></div>
+      <div class="card"><h3>Clocking warnings</h3><p>Odometer readings in miles (kilometres converted), average miles a year, and a flag wherever the mileage went down between tests.</p></div>
+      <div class="card"><h3>Typed models</h3><p>Frozen dataclasses for vehicle, test and defect in Python; full <code>.d.ts</code> types in TypeScript. Dates parsed, strings cleaned.</p></div>
+      <div class="card"><h3>Runs everywhere</h3><p>Python standard library only. JavaScript is one fetch-based file for Node 20+, Cloudflare Workers, Deno and Bun.</p></div>
+      <div class="card"><h3>A handy CLI</h3><p><code>uk-mot-history AB12CDE</code> prints a readable history: results, mileage, advisories and failures, MOT expiry and recall status.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="quick-start">
+  <div class="wrap">
+    <h2>Quick start</h2>
+    <p class="sub">Install from GitHub, set four environment variables from your DVSA email, and look up a car.</p>
+    <div class="two">
+      <div>
+        <span class="label">Python</span>
+<pre>uv add git+https://github.com/behoss/uk-mot-history
+
+from uk_mot_history import MotHistoryClient, find_mileage_anomalies
+
+client = MotHistoryClient.from_env()       # MOT_HISTORY_* variables
+car = client.by_registration("AB12 CDE")   # or client.by_vin(...)
+
+print(car.make, car.model, "MOT expires", car.mot_expiry)
+for test in car.mot_tests:                 # newest first
+    print(test.completed_date.date(), test.test_result, test.odometer_miles)
+for warning in find_mileage_anomalies(car):
+    print("Clocking warning:", warning)</pre>
+      </div>
+      <div>
+        <span class="label">TypeScript / JavaScript</span>
+<pre>// copy js/src/index.js + index.d.ts into ./mot/
+import { MotHistoryClient, findMileageAnomalies, motExpiry } from "./mot/index.js";
+
+const client = MotHistoryClient.fromEnv(env); // Workers env or process.env
+const car = await client.byRegistration("AB12CDE");
+
+console.log(car.make, car.model, "MOT expires", motExpiry(car));
+for (const a of findMileageAnomalies(car)) {
+  console.log(`Mileage fell ${a.drop} miles by ${a.later.date}`);
+}</pre>
+      </div>
+    </div>
+    <span class="label">CLI</span>
+<pre>$ uk-mot-history AB12CDE
+FORD FOCUS  (AB12CDE)
+Silver | Petrol | 1596 cc | first used 2012-03-01
+MOT expires: 2025-02-28 (valid)
+Outstanding recall: No
+
+2024-02-27  <span class="ok">PASS</span>  71,240 mi
+            ADVISORY   Nearside Front Tyre worn close to legal limit/worn on edge (5.2.3 (e))
+2023-02-20  <span class="ok">PASS</span>  58,410 mi
+2022-02-24  <span class="bad">FAIL</span>  61,002 mi
+            MAJOR      Offside Rear Brake pipe excessively corroded (1.1.11 (c))
+            DANGEROUS  Nearside Front Suspension arm ball joint excessively worn (5.3.4 (a) (i))
+2021-02-25  <span class="ok">PASS</span>  49,870 mi
+
+<span class="warn">WARNING: mileage went down by 2,592 miles: 61,002 on 2022-02-24 -&gt; 58,410 on 2023-02-20 (possible clocking)</span>
+Average: 7,115 miles a year.</pre>
+    <p class="sub">Sample output from the test fixture; the registration is made up.</p>
+  </div>
+</section>
+
+<section id="api-key">
+  <div class="wrap">
+    <h2>Get a DVSA MOT History API key</h2>
+    <p class="sub">The API is free. DVSA issues keys to organisations, businesses and individuals.</p>
+    <ol class="steps">
+      <li>Read DVSA's <a href="https://documentation.history.mot.api.gov.uk/mot-history-api/register">MOT History API registration page</a>, then fill in the <a href="https://submit.forms.service.gov.uk/form/2382/register-for-mot-history-api/7519">registration form</a> (name, email, postal address).</li>
+      <li>Review takes up to five working days. DVSA emails a client ID, client secret, API key and the tenant ID for the token URL.</li>
+      <li>Put them in environment variables, never in code. Keys from the old, pre-OAuth MOT History API don't work: register again.</li>
+    </ol>
+    <div class="table">
+      <table>
+        <thead><tr><th>Variable</th><th>From the DVSA email</th></tr></thead>
+        <tbody>
+          <tr><td><code>MOT_HISTORY_CLIENT_ID</code></td><td>Client ID</td></tr>
+          <tr><td><code>MOT_HISTORY_CLIENT_SECRET</code></td><td>Client secret</td></tr>
+          <tr><td><code>MOT_HISTORY_API_KEY</code></td><td>API key, sent as <code>X-API-Key</code></td></tr>
+          <tr><td><code>MOT_HISTORY_TENANT_ID</code></td><td>Tenant ID in the Microsoft token URL</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="gotchas">
+  <div class="wrap">
+    <h2>API notes and gotchas</h2>
+    <p class="sub">What the DVSA documentation leaves you to find out the hard way.</p>
+    <ul class="notes">
+      <li><strong>Two credentials on every call:</strong> a bearer token (client credentials, scope <code>https://tapi.dvsa.gov.uk/.default</code>) and the <code>X-API-Key</code> header. Missing either gives 401 or 403.</li>
+      <li><strong>Rate limits:</strong> 500,000 requests a day, 15 a second on average, bursts of 10. Go over the daily quota and the key is blocked for 24 hours, so cache results on your side.</li>
+      <li><strong>Two response shapes:</strong> a car with tests has <code>motTests</code>; a car too new for its first MOT has none and a <code>motTestDueDate</code> instead. <code>mot_expiry</code> and <code>motExpiry()</code> handle both.</li>
+      <li><strong>Odometer values are strings</strong> with a unit (<code>MI</code> or <code>KM</code>) and a result type (<code>READ</code>, <code>UNREADABLE</code>, <code>NO_ODOMETER</code>). Use the miles helpers rather than the raw value.</li>
+      <li><strong>Defect types:</strong> <code>ADVISORY</code>, <code>MINOR</code>, <code>MAJOR</code>, <code>DANGEROUS</code>, plus <code>FAIL</code>, <code>PRS</code> and <code>USER ENTERED</code> on older records. Same-day retests appear as separate tests.</li>
+      <li><strong>Mileage drops</strong> are the classic clocking sign; a tester's typo or a replaced instrument cluster can cause them too, so treat them as a flag to investigate.</li>
+      <li><strong>Bulk data:</strong> <code>bulk_download()</code> returns short-lived links to the full extract and daily deltas. Download them straight away.</li>
+      <li><strong>Licence:</strong> the data is under the Open Government Licence v3.0. Show "Contains public sector information licensed under the Open Government Licence v3.0." wherever you display it.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="data">
+  <div class="wrap">
+    <h2>Open data: first-MOT fail rates by make and model</h2>
+    <p class="sub">The repo also ships a CSV of first-MOT fail rates for 350 makes and models, from 7.3 million first MOTs (2022 to 2024) in DVSA's open MOT data, each row linked to that model's reliability page. See the ranked tables on <a href="https://getfreecarcheck.co.uk/research/first-mot-fail-rates">cars most likely to fail their first MOT</a>, or <a href="https://github.com/behoss/uk-mot-history/tree/main/data">download the CSV</a>.</p>
+  </div>
+</section>
+
+<section id="free-check">
+  <div class="wrap">
+    <div class="banner">
+      <div>
+        <h2>Need a car check, not a code library?</h2>
+        <p>GetFreeCarCheck turns this same DVSA data into a full report in seconds: MOT history, mileage timeline, ULEZ and tax status, recalls and the faults that model is known for.</p>
+      </div>
+      <div class="side">
+        <a class="btn primary" href="https://getfreecarcheck.co.uk">Run a free car check</a>
+        <span>Any UK registration. No sign-up.</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>uk-mot-history, MIT licence, by <a href="https://behoss.github.io">Bez</a>. Not affiliated with DVSA.</span>
+    <span><a href="https://github.com/behoss/uk-mot-history">GitHub</a> · <a href="https://documentation.history.mot.api.gov.uk/">DVSA API docs</a> · <a href="https://getfreecarcheck.co.uk">Free car check</a></span>
+  </div>
+</footer>
+</body>
+</html>
